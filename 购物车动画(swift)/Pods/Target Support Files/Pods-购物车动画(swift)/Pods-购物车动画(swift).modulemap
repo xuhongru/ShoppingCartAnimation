@@ -1,0 +1,6 @@
+framework module Pods_______swift_ {
+  umbrella header "Pods-购物车动画(swift)-umbrella.h"
+
+  export *
+  module * { export * }
+}

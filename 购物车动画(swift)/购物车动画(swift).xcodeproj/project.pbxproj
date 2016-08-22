@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CFD8BDF8EDAC5A03CEEC307 /* Pods_______swift_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3154B773567FC64EC13C233 /* Pods_______swift_.framework */; };
+		B66C1CE21D69999C00A99A39 /* XHRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C1CE11D69999C00A99A39 /* XHRTabBarController.swift */; };
+		B66C1CE71D69BE8000A99A39 /* XHRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C1CE61D69BE8000A99A39 /* XHRViewController.swift */; };
+		B6DE3F491D6985C300CC7B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE3F481D6985C300CC7B97 /* AppDelegate.swift */; };
+		B6DE3F501D6985C300CC7B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DE3F4F1D6985C300CC7B97 /* Assets.xcassets */; };
+		B6DE3F531D6985C300CC7B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DE3F511D6985C300CC7B97 /* LaunchScreen.storyboard */; };
+		B6FB77051D6A8A2E00B1979C /* XHRShoppingCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB77041D6A8A2E00B1979C /* XHRShoppingCartButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DBC91AC6AC6F0CB6E0FBAF8 /* Pods-购物车动画(swift).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-购物车动画(swift).release.xcconfig"; path = "Pods/Target Support Files/Pods-购物车动画(swift)/Pods-购物车动画(swift).release.xcconfig"; sourceTree = "<group>"; };
+		A3154B773567FC64EC13C233 /* Pods_______swift_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______swift_.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74D1C726382084DC180B4CD /* Pods-购物车动画(swift).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-购物车动画(swift).debug.xcconfig"; path = "Pods/Target Support Files/Pods-购物车动画(swift)/Pods-购物车动画(swift).debug.xcconfig"; sourceTree = "<group>"; };
+		B66C1CE11D69999C00A99A39 /* XHRTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHRTabBarController.swift; sourceTree = "<group>"; };
+		B66C1CE61D69BE8000A99A39 /* XHRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHRViewController.swift; sourceTree = "<group>"; };
+		B6DE3F451D6985C300CC7B97 /* 购物车动画(swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "购物车动画(swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DE3F481D6985C300CC7B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6DE3F4F1D6985C300CC7B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6DE3F521D6985C300CC7B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6DE3F541D6985C300CC7B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FB77041D6A8A2E00B1979C /* XHRShoppingCartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHRShoppingCartButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6DE3F421D6985C300CC7B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFD8BDF8EDAC5A03CEEC307 /* Pods_______swift_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6DE3F3C1D6985C300CC7B97 = {
+			isa = PBXGroup;
+			children = (
+				B6DE3F471D6985C300CC7B97 /* 购物车动画(swift) */,
+				B6DE3F461D6985C300CC7B97 /* Products */,
+				F4CD689DC1D05F97BC302A66 /* Pods */,
+				F58E0C185F82AF16D19F803D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6DE3F461D6985C300CC7B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE3F451D6985C300CC7B97 /* 购物车动画(swift).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6DE3F471D6985C300CC7B97 /* 购物车动画(swift) */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE3F481D6985C300CC7B97 /* AppDelegate.swift */,
+				B66C1CE11D69999C00A99A39 /* XHRTabBarController.swift */,
+				B66C1CE61D69BE8000A99A39 /* XHRViewController.swift */,
+				B6FB77041D6A8A2E00B1979C /* XHRShoppingCartButton.swift */,
+				B6DE3F4F1D6985C300CC7B97 /* Assets.xcassets */,
+				B6DE3F511D6985C300CC7B97 /* LaunchScreen.storyboard */,
+				B6DE3F541D6985C300CC7B97 /* Info.plist */,
+			);
+			path = "购物车动画(swift)";
+			sourceTree = "<group>";
+		};
+		F4CD689DC1D05F97BC302A66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A74D1C726382084DC180B4CD /* Pods-购物车动画(swift).debug.xcconfig */,
+				7DBC91AC6AC6F0CB6E0FBAF8 /* Pods-购物车动画(swift).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F58E0C185F82AF16D19F803D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3154B773567FC64EC13C233 /* Pods_______swift_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6DE3F441D6985C300CC7B97 /* 购物车动画(swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DE3F571D6985C300CC7B97 /* Build configuration list for PBXNativeTarget "购物车动画(swift)" */;
+			buildPhases = (
+				E347384234BD5C7EF86F39E9 /* 📦 Check Pods Manifest.lock */,
+				B6DE3F411D6985C300CC7B97 /* Sources */,
+				B6DE3F421D6985C300CC7B97 /* Frameworks */,
+				B6DE3F431D6985C300CC7B97 /* Resources */,
+				60A745FEB4DA26988ED2721A /* 📦 Embed Pods Frameworks */,
+				CA4BFAF0E1E21EEBECD86F06 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "购物车动画(swift)";
+			productName = "购物车动画(swift)";
+			productReference = B6DE3F451D6985C300CC7B97 /* 购物车动画(swift).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6DE3F3D1D6985C300CC7B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xuhongru;
+				TargetAttributes = {
+					B6DE3F441D6985C300CC7B97 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 257QQ37JJL;
+					};
+				};
+			};
+			buildConfigurationList = B6DE3F401D6985C300CC7B97 /* Build configuration list for PBXProject "购物车动画(swift)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6DE3F3C1D6985C300CC7B97;
+			productRefGroup = B6DE3F461D6985C300CC7B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DE3F441D6985C300CC7B97 /* 购物车动画(swift) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6DE3F431D6985C300CC7B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DE3F531D6985C300CC7B97 /* LaunchScreen.storyboard in Resources */,
+				B6DE3F501D6985C300CC7B97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60A745FEB4DA26988ED2721A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-购物车动画(swift)/Pods-购物车动画(swift)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4BFAF0E1E21EEBECD86F06 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-购物车动画(swift)/Pods-购物车动画(swift)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E347384234BD5C7EF86F39E9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6DE3F411D6985C300CC7B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1CE71D69BE8000A99A39 /* XHRViewController.swift in Sources */,
+				B66C1CE21D69999C00A99A39 /* XHRTabBarController.swift in Sources */,
+				B6FB77051D6A8A2E00B1979C /* XHRShoppingCartButton.swift in Sources */,
+				B6DE3F491D6985C300CC7B97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6DE3F511D6985C300CC7B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DE3F521D6985C300CC7B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6DE3F551D6985C300CC7B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6DE3F561D6985C300CC7B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6DE3F581D6985C300CC7B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74D1C726382084DC180B4CD /* Pods-购物车动画(swift).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "购物车动画(swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xuhongru.------swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6DE3F591D6985C300CC7B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBC91AC6AC6F0CB6E0FBAF8 /* Pods-购物车动画(swift).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "购物车动画(swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xuhongru.------swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6DE3F401D6985C300CC7B97 /* Build configuration list for PBXProject "购物车动画(swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DE3F551D6985C300CC7B97 /* Debug */,
+				B6DE3F561D6985C300CC7B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DE3F571D6985C300CC7B97 /* Build configuration list for PBXNativeTarget "购物车动画(swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DE3F581D6985C300CC7B97 /* Debug */,
+				B6DE3F591D6985C300CC7B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6DE3F3D1D6985C300CC7B97 /* Project object */;
+}
